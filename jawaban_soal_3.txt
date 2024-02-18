@@ -1,0 +1,3 @@
+Fork adalah membuat sebuah copy identikal repository agar kita memiliki full control untuk meng-clone, membuat commit, push, dll.
+
+Pull request adalah sebuah permintaan untuk menggabungkan sebuah branch ke branch utama agar bisa didiskusikan dan direview terlebih dahulu.

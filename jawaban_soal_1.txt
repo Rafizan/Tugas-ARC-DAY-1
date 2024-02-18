@@ -1,0 +1,10 @@
+Merge conflict dapat terjadi ketika kita ingin menggambungkan 2 branch yang terdapat perubahan pada file/line yang sama dan git tidak bisa menyelesaikannya dengan git-nya sendiri.
+
+cara menanggulangi merge conflict antara lain dengan:
+1. Buka repository pada terminal
+2. Cari file yang terpengaruh merge conflict dengan menggunakan "git status"
+3. Buka file tersebut pada text editor apapun
+4. Cari conflict marker yang dimulai dengan "<<<<<<< HEAD" dan diakhiri dengan ">>>>>>> BRANCH-NAME"
+5. Pilihlah mana perubahan yang ingin disimpan (bisa juga kedua-duanya disimpan) dan hapus conflict markers "<<<<<<<", "=======", dan ">>>>>>>".
+6. Tambah perubahan menggunakan command "git add"
+7. Terakhir tinggal commit dan disarankan untuk membuat sebuah komen seperti "git commit -m "Resolved merge conflict""
